@@ -1,6 +1,7 @@
 {
   "name": "yes",
   "version": "yes",
+  "homepage": "http://yagmurguzeldereli.com/",
   "private": false,
   "dependencies": {
     "@splinetool/react-spline": "^2.2.1",
@@ -22,7 +23,7 @@
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
-  "homepage": "http://yagmurguzeldereli.com/",
+ 
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build",
