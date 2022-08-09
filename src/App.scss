@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Raleway:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;1,500&family=Smooch&family=Water+Brush&display=swap');
+
+.app{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+   .sections{
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: relative;
+    top: 70px;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+   
+   
+    > *{
+        width: 100vw;
+        height: calc(100vh - 70px);
+        scroll-snap-align: start;
+        
+    }
+
+
+   } 
+
+
+}
