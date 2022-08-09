@@ -1,7 +1,7 @@
 {
   "name": "yes",
   "version": "yes",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@splinetool/react-spline": "^2.2.1",
     "@splinetool/runtime": "^0.9.91",
@@ -9,6 +9,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.4.1",
     "axios": "^0.27.2",
+    "gh-pages": "^4.0.0",
     "git": "^0.1.5",
     "github": "^14.0.0",
     "node": "^18.7.0",
@@ -21,7 +22,10 @@
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
+  "homepage": "http://yagmurguzeldereli.com/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
