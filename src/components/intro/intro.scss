@@ -1,0 +1,58 @@
+@import '../../global.scss';
+
+.intro{
+background-color: #B2C7AD;
+overflow: hidden;
+
+@include mobile{
+flex-direction: column;
+align-items: center;
+
+    }
+    .right{
+    
+        display: inline;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #353C34;
+            margin-left: 20px;
+
+            @include mobile{
+                align-items: center;
+                padding-left: 0;
+            }
+   
+
+            h1{
+                font-size: 100px;
+                margin: 10px 0;
+                @include mobile{
+                    font-size: 40px;
+                }
+            }
+            h2{
+                font-size: 35px;
+            }
+            h3{
+            font-size: 30px;
+
+
+            span{
+
+                font-size: inherit;
+                color: white;
+                
+            }
+            }
+    
+    
+        }
+
+    }
+
+}
