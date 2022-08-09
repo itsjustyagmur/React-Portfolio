@@ -1,7 +1,7 @@
 {
   "name": "yes",
   "version": "yes",
-  "homepage": "http://yagmurguzeldereli.com/",
+  "homepage": "https://itsjustyagmur.github.io/React-Portfolio/",
   "private": false,
   "dependencies": {
     "@splinetool/react-spline": "^2.2.1",
