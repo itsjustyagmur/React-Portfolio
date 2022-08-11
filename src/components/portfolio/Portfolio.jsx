@@ -6,7 +6,7 @@ export default function Portfolio() {
        <h1>Projects</h1><br></br><br></br>
        <div className="container">
        <div className="item">
-        <img src="./assets/evil.png" alt=""/>
+        <img src="https://github.com/itsjustyagmur/react-portfolio/blob/gh-pages/assets/evil.png?raw=true" alt=""/>
         <a href="https://itsjustyagmur.github.io/evileye/">cafe</a>
         
       </div>
