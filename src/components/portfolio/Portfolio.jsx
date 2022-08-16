@@ -12,7 +12,7 @@ export default function Portfolio() {
         
       </div>
        <div className="item">
-          <img src="assets/clock.png" alt=""/>
+          <img src="{require (assets/clock.png)}" alt=""/>
           <a href="https://itsjustyagmur.github.io/javaclock/">Clock</a>
         </div>
         <div className="item">
